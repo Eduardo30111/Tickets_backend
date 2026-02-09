@@ -1,0 +1,26 @@
+/* Colores: Verde, Amarillo, Blanco - Sistema de Ticket de Soporte */
+:root {
+  --background: #ffffff;
+  --foreground: #1a4d2e;
+  --card: #ffffff;
+  --card-foreground: #1a4d2e;
+  --primary: #2d7a4f;
+  --primary-foreground: #ffffff;
+  --secondary: #e8f5e9;
+  --secondary-foreground: #1a4d2e;
+  --muted: #f1f8f4;
+  --muted-foreground: #4a7c59;
+  --accent: #ffd54f;
+  --accent-foreground: #1a4d2e;
+  --destructive: #d32f2f;
+  --destructive-foreground: #ffffff;
+  --border: rgba(45, 122, 79, 0.2);
+  --input-bg: #f8fdf9;
+  --ring: #2d7a4f;
+  --radius: 0.625rem;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
